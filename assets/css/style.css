@@ -1,0 +1,39 @@
+        * {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        /* Кастомные стили для календаря и т.д. */
+        .car-card:hover {
+            transform: translateY(-4px);
+            transition: transform 0.2s ease;
+        }
+        
+        .shadow-card {
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #2563EB 0%, #3B82F6 100%);
+        }
+        
+        .btn-primary:hover {
+            background: linear-gradient(135deg, #1D4ED8 0%, #2563EB 100%);
+        }
+        
+        /* Стили для скроллбара */
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+        
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: #c1c1c1;
+            border-radius: 3px;
+        }
+        
+        ::-webkit-scrollbar-thumb:hover {
+            background: #a1a1a1;
+        }
